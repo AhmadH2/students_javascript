@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./logic.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <label for="">Student Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="">Id</label>
+            <input type="text" id='studentId'>
+        </div>
+        <div>
+            <select name="" id="major">
+                <option value="" >CSE</option>
+                <option value="" selected>CS</option>
+                <option value="">EN</option>
+            </select>
+        </div>
+        <!-- <input type="submit" id='Submit'> -->
+        <button id='Submit' type="submit" onclick=subm()>Submit</button>
+
+        <div>
+            <label for="">searcg</label>
+            <input type="text" id="inputSearch">
+            <button onclick=search()>Search</button>
+        </div>
+        <button onclick=sort()>Sort</button>
+    </div>
+    
+</body>
+</html>
